@@ -1,3 +1,5 @@
+const plugin = require("..");
+
 // Requiring probot allows us to mock out a robot instance
 const { createRobot } = require("probot");
 // Create a fixtures folder in your test folder
@@ -12,7 +14,7 @@ describe("your-app", () => {
     // Here we create a robot instance
     robot = createRobot();
     // Here we initialize the app on the robot instance
-    app(robot);
+    plugin(robot);
     // This is an easy way to mock out the GitHub API
     github = {
       issues: {
@@ -24,7 +26,10 @@ describe("your-app", () => {
   });
 
   describe("your functionality", () => {
-    it("performs an action", async () => {
+    it("don't have no tests", () => {
+      expect(plugin).toBeTruthy();
+    });
+    it.skip("performs an action", async () => {
       // Simulates delivery of a payload
       await robot.receive(payload);
       // This test would pass if in your main code you called `context.github.issues.createComment`
