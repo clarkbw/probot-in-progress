@@ -1,0 +1,7 @@
+{
+  "action": "reopened",
+  "number": 2,
+  "pull_request": {
+    "body": "This fixes #1 "
+  }
+}
