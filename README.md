@@ -1,6 +1,6 @@
 # in-progress
 
-> a GitHub App built with [probot](https://github.com/probot/probot) that 
+> a GitHub App built with [probot](https://github.com/probot/probot) that automatically labels issues with the `in-progress` label when an open PR uses the [GitHub issue keywords](https://help.github.com/articles/closing-issues-using-keywords/)
 
 ## Setup
 
