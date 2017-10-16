@@ -1,0 +1,27 @@
+{
+  "name": "in-progress",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Bryan Clark <clarkbw@github.com>",
+  "license": "ISC",
+  "repository": "https://github.com/clarkbw/in-progress.git",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "probot": "^0.7.2"
+  },
+  "devDependencies": {
+    "debug": "^3.1.0",
+    "expect": "^1.20.2",
+    "jest": "^21.2.1",
+    "localtunnel": "^1.8.2",
+    "nodemon": "^1.12.1",
+    "prettier": "^1.7.4"
+  },
+  "engines": {
+    "node": ">= 7.7.0",
+    "npm": ">= 4.0.0"
+  }
+}
