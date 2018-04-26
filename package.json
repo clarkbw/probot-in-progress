@@ -14,11 +14,11 @@
     "probot": "^0.7.2"
   },
   "devDependencies": {
-    "expect": "^22.4.0",
-    "jest": "^22.4.2",
-    "localtunnel": "^1.8.2",
-    "nodemon": "^1.17.1",
-    "prettier": "^1.11.1"
+    "expect": "^22.4.3",
+    "jest": "^22.4.3",
+    "localtunnel": "^1.9.0",
+    "nodemon": "^1.17.3",
+    "prettier": "^1.12.1"
   },
   "engines": {
     "node": ">= 7.7.0",
